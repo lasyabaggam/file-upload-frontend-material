@@ -7,7 +7,7 @@
 
 mat-card {
     width: 25%;
-    height: 40%;
+    height: 42%;
     margin-bottom: 10%;
     padding: 20px;
 }
@@ -20,6 +20,9 @@ mat-form-field {
 mat-card-header {
     padding: 10px 10px 20px 10px;
     font-weight: 500;
+}
+mat-card-title {
+    font-size: 20px;
 }
 
 mat-card-actions {

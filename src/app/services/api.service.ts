@@ -25,7 +25,6 @@ export class ApiService {
     path: string,
     options: { [param: string]: unknown } = {}
   ): Observable<any> {
-    console.log(options)
     return this.httpClient.get(`${environment.apiUrl}/api/${path}`, options);
   }
 
@@ -33,7 +32,6 @@ export class ApiService {
     path: string,
     options: { [param: string]: unknown } = {}
   ): Observable<any> {
-    console.log(options)
     return this.httpClient.get(path, options);
   }
 }
