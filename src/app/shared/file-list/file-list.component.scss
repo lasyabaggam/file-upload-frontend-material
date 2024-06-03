@@ -1,0 +1,9 @@
+mat-list {
+    overflow-y: auto;
+    .list-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+    }
+}

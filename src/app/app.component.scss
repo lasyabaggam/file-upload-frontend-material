@@ -1,0 +1,8 @@
+#loading-spinner {
+    display: none;
+}
+
+/* Show the loading spinner when isLoading is true */
+#loading-spinner.show {
+    display: block;
+}

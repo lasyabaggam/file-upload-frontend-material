@@ -1,0 +1,22 @@
+.container {
+    height: calc(100% - var(--mat-toolbar-standard-height));
+    overflow: hidden;
+}
+
+.toolbar {
+    font-size: 15px;
+    border-bottom: 1px solid #c4c6d0;
+}
+
+.left-content {
+    overflow-y: auto;
+    border-right: 1px solid #c4c6d0;
+    p {
+        margin-top: 20px ;
+    }
+}
+
+.left-content,
+.right-content {
+    padding: 10px 15px;
+}

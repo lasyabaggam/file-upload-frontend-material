@@ -1,0 +1,10 @@
+<mat-list role="list">
+    @for (file of (fileService.files | async); track $index) {
+    <mat-list-item role="listitem">
+        <p class="list-item">
+            <button mat-button (click)="getFileContent(file.id)">{{file.fileName}}</button>
+            <span>{{file.createdAt | date}}</span>
+        </p>
+    </mat-list-item>
+    }
+</mat-list>

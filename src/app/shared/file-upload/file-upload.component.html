@@ -1,0 +1,11 @@
+<div class="file-container">
+    <div class="file-upload">
+        <button mat-stroked-button (click)="onClick()">
+            <mat-icon>add</mat-icon>
+            Upload CSV</button>
+        <input #fileUpload (change)="onUpload($event)" type="file" hidden>
+    </div>
+    <div class="file-download">
+        <a mat-button download href="sample-data.csv">Download csv template</a>
+    </div>
+</div>

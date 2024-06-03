@@ -1,0 +1,12 @@
+<nav-bar></nav-bar>
+<div fxLayout="row" fxLayoutGap="12px" fxLayoutAlign="space-between" class="container">
+    <div fxFlex="25" class="left-content">
+        <file-upload></file-upload>
+        <p class="mat-title-small">Previous Uploads</p>
+        <file-list (fetchFileContent)="fetchFileContent($event)"></file-list>
+    </div>
+
+    <div fxFlex="75" class="right-content">
+       <data-table></data-table>
+    </div>
+</div>
