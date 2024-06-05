@@ -22,8 +22,6 @@ export interface UserData {
 })
 export class DashboardComponent {
   title: 'material-pu-frontend';
-  files: File[] = [];
-
   @ViewChild('fileUpload') fileUpload: ElementRef;
 
   constructor(private fileService: FileService) {
