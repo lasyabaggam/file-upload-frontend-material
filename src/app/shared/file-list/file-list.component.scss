@@ -5,5 +5,12 @@ mat-list {
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+        button {
+                white-space: nowrap;
+                overflow: hidden;
+                display: block;
+                text-overflow: ellipsis;
+                max-width: 70%;
+        }
     }
 }
